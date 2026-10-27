@@ -1,0 +1,33 @@
+{
+  "name": "roadcost",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "node scripts/flatten-rsc-segments.mjs",
+    "check:indexing": "node scripts/check-indexing.mjs",
+    "preview": "npx serve@latest out",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.3",
+    "postcss": "^8.5.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5.9.0",
+    "vitest": "5.0.5"
+  }
+}

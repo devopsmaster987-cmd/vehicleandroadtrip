@@ -1,0 +1,587 @@
+# MASTER PROMPT v3.0 — European + UK + US Vehicle & Road-Trip Tools
+### (Consolidated: original brief + advanced keyword coverage + programmatic SEO + search-quality controls + USA/UK expansion)
+
+---
+
+## 1. ROLE
+
+Act as a senior full-stack engineer, technical SEO specialist, keyword researcher, UX designer, data-verification engineer, and Google AdSense publisher.
+
+Research, plan, build, test, and prepare a genuinely useful **European + UK + US** vehicle and road-trip calculator website designed to attract organic Google search traffic and monetize through Google AdSense.
+
+Work systematically. Research before building. Verify calculations before publishing. Never invent keyword volumes, competition scores, regulations, prices, or potential earnings.
+
+The website must solve real problems for European, British, and American drivers, EV owners, tourists, commuters, and people planning cross-border or interstate journeys.
+
+---
+
+## 2. NORTH STAR
+
+Build a website that is:
+
+- Genuinely useful rather than a collection of thin calculator pages.
+- Focused on European, UK, and US drivers and travel-related searches.
+- Designed around validated keyword opportunities.
+- Accurate, transparent, and supported by reliable sources.
+- Fast, accessible, mobile-friendly, and easy to understand.
+- Structured for sustainable organic search traffic.
+- Suitable for a legitimate Google AdSense application.
+- Affordable to maintain, preferably with no paid APIs.
+- Original in its calculations, user experience, explanations, and decision support.
+
+**Never interpret a keyword list as permission to create one page per keyword.**
+
+Never create pages merely to increase page count or advertising inventory.
+
+**Primary objective:** find underserved UK, US, and European search queries with measurable demand and realistic organic ranking opportunities.
+
+**Secondary objective:** build useful tools that encourage visitors to return and explore related calculators.
+
+**Success means building a smaller number of excellent, trustworthy tools that satisfy real searches — not publishing the largest possible number of keyword pages.**
+
+---
+
+## 3. TARGET AUDIENCE AND MARKETS
+
+**Tier 1 (primary, launch focus):**
+
+1. United Kingdom
+2. United States
+3. Germany
+4. Austria
+5. Switzerland
+
+**Tier 2 (expansion):**
+
+6. Netherlands
+7. France
+8. Italy
+9. Slovenia
+10. Spain
+11. Belgium
+
+Research each market independently. Do not assume an English keyword has the same search volume, intent, or competition in the UK, the US, and continental Europe — or that a British and an American query mean the same thing.
+
+For Germany, France, Italy, Spain, the Netherlands, Belgium, Austria, and Slovenia, research the actual local-language terms people use.
+
+**Critical UK/US distinction:** UK and US English share spelling but not units, not currency, not fuel pricing conventions, and not regulation. "MPG" means something measurably different in each market (see §4). "Gas" means petrol in the US and LPG/other in parts of Europe. Never serve one market the other's units by default.
+
+---
+
+## 4. UNITS, CURRENCIES AND CONVENTIONS (MANDATORY CORRECTNESS)
+
+**United Kingdom**
+- Distance: miles; speed: mph.
+- Fuel economy: MPG (UK imperial), based on 1 imperial gallon = 4.54609 L.
+- Fuel is sold **in litres**, priced in **pence per litre (p/l)** — a genuine UK-specific oddity worth explaining: the pump uses litres while the economy figure uses MPG.
+- Currency: GBP (£).
+- Driving charges: VED (road tax), MOT, ULEZ/LEZ, Congestion Charge, Dartford Crossing, M6 Toll.
+
+**United States**
+- Distance: miles; speed: mph.
+- Fuel economy: MPG (US), based on 1 US gallon = 3.785411784 L.
+- Fuel is sold **in US gallons**, priced in **USD per gallon**, typically with octane grades (87/89/93) and diesel.
+- Currency: USD ($).
+- Fuel economy ratings come from EPA; EV efficiency commonly in **kWh/100 mi**, **mi/kWh**, or **MPGe**.
+- Electricity commonly priced in **cents per kWh**.
+- Tolls: state turnpikes, bridges, tunnels, transponders (E-ZPass, SunPass, etc.).
+- No motorway vignette anywhere in the US.
+
+**Continental Europe**
+- Distance: kilometres; fuel economy: litres per 100 km; volume in litres; EUR or local currency; vignettes in AT/CH/SI and others.
+
+**Never confuse UK MPG with US MPG.** The two differ by a factor of ≈1.20095. A page that does not state which one it means is wrong.
+
+Support appropriate local units, currencies, vehicle terminology, number formats, decimal/thousand separators, date formats, and language conventions. Where a user is likely to switch between systems (UK↔EU, US↔metric, tourist contexts), offer an explicit toggle — never a silent assumption.
+
+---
+
+## 5. MANDATORY PHASE ZERO: NICHE AND KEYWORD VALIDATION
+
+Do not begin full website development until the initial research is complete and presented.
+
+### 5.1 Research these competing categories
+
+Vehicle efficiency converters · vehicle power converters · fuel/gas cost calculators · EV charging calculators · petrol-versus-electric and gas-versus-EV cost comparisons · UK and European road-trip cost calculators · US road-trip and gas-budget calculators · road toll and vignette tools · country/state-specific travel requirements · EV charging-time calculators · EV ownership-cost calculators · vehicle running-cost calculators · vehicle depreciation calculators · home charging electricity calculators · cross-border driving calculators · UK road tax and mileage-rate calculators · US mileage-deduction and cost-per-mile calculators.
+
+### 5.2 Keyword research requirements
+
+For every proposed tool, identify: primary keyword; secondary keywords; long-tail variations; questions people search; target country; target language; estimated monthly search volume; search-volume source and retrieval date; organic keyword difficulty where available; advertiser competition if available; CPC estimates if available; search intent; current ranking pages; competitor strengths and weaknesses; estimated difficulty for a new website; whether the keyword deserves a dedicated page.
+
+Research **separately** for `google.co.uk`, `google.com` (US), and each European market. Keep organic difficulty separate from Google Ads competition. If keyword data is unavailable, label it UNVERIFIED. Never fabricate numerical values.
+
+Use Google Ads Keyword Planner, Google Trends, reputable SEO keyword databases, Google search results, official road/transport/energy sources, and search suggestions/related queries.
+
+Do not represent a Google Trends index as monthly search volume.
+
+### 5.3 Evaluate actual search results
+
+For promising keywords, inspect the current top 10 organic results **in the correct country index**. Determine: whether established brands dominate; whether results match the intended tool; whether existing calculators are accurate and usable; whether country-specific information is missing; whether results are outdated; whether an existing tool requires too many steps; whether a new website can meaningfully improve; whether the query is commercially relevant.
+
+A low third-party difficulty score alone is not sufficient evidence.
+
+### 5.4 Score each opportunity
+
+Weighted model: search demand 25% · realistic organic ranking opportunity 25% · user usefulness and unmet needs 20% · target-market relevance (UK/US/EU combined) 10% · commercial and AdSense potential 10% · ease of implementation and maintenance 10%. Score each 1–10; calculate weighted total out of 100.
+
+Label the result an internal opportunity score, not a measured probability of ranking. Penalize unreliable data, expensive maintenance, and no clear differentiation.
+
+### 5.5 Phase Zero deliverables
+
+1. Ranked list of the 30 best keyword opportunities (with a UK/US/EU split).
+2. Separate analysis of the top 10 potential tools.
+3. Country-by-country **and US/UK-by-region** opportunity table.
+4. Competitor gap analysis (EU, UK, and US competitors listed separately).
+5. Keyword map with one primary keyword per page.
+6. Keywords that should **not** receive separate pages.
+7. Shortlist of the five best initial tools.
+8. List of all unverified assumptions.
+9. Initial technical architecture.
+10. Launch plan and realistic cost estimate.
+
+Stop after Phase Zero and request approval before building.
+
+Do not claim a keyword has low competition unless supporting evidence has been collected.
+
+---
+
+## 6. KEYWORD CLASSIFICATION TAXONOMY (MANDATORY)
+
+Classify **every** keyword — from the consolidated inventory and every newly discovered keyword — into exactly one of these classes:
+
+1. Primary tool keyword.
+2. Secondary keyword for an existing tool.
+3. Worked-example query.
+4. Question or explanatory query.
+5. Country/region-specific information query.
+6. Freshness-dependent query.
+7. Competitor research query.
+8. Formatting or presentation query.
+9. Typo, alternate spelling, or UK/US spelling variant.
+10. Unsupported, irrelevant, or low-priority query.
+
+Do not claim a keyword has zero search volume, low competition, or a fast ranking opportunity without supporting evidence.
+
+---
+
+## 7. INITIAL TOOL COLLECTION (candidate features, not automatic pages)
+
+Each must pass keyword validation.
+
+**Category A — Efficiency and power**
+1. **L/100 km ↔ MPG converter.** UK MPG **and** US MPG, explicit toggle, formula shown, worked examples, explain why UK and US MPG differ.
+2. **MPG ↔ L/100 km converter** (UK and US variants, or one page with a direction + system toggle — decide by SERP evidence, not preference).
+3. **kW ↔ PS ↔ hp converter.** All six directions; explain the PS/hp difference; include a US-facing hp↔kW route and a UK-facing bhp↔kW route.
+
+**Category B — Fuel and EV economics**
+4. **EV charging cost calculator.** Inputs: battery capacity where relevant, energy added in kWh, price per kWh (or cents per kWh), charging efficiency/losses, home/public AC/DC tariff, optional fixed session fee. Outputs: estimated cost, cost per kWh, cost per 100 km **and** cost per mile, energy purchased, assumptions. Never assume one national electricity price.
+5. **Petrol/gas vs EV cost calculator.** Separate UK (miles, p/l, MPG UK) and US (miles, $/gal, MPG US) paths. Inputs: fuel price, consumption, electricity price, EV consumption (kWh/100 km or mi/kWh), annual distance, optional charging loss. Outputs: cost per 100 km and per mile, annual running cost, difference, break-even distance from a user-supplied price gap. Separate running costs from ownership costs. Never claim an EV is always cheaper.
+6. **Fuel cost per 100 km / per mile calculator.** Distance, consumption, price, units; total cost, cost per km/mile, cost per 100 km; optional commute preset.
+7. **Road-trip toll and fuel calculator.** Manual distance and country/state entry where no verified route source exists. Never invent toll prices.
+
+**Category C — Vignettes and road requirements**
+8. **Austria motorway vignette.**
+9. **Switzerland motorway vignette.**
+10. **Slovenia motorway vignette.**
+
+Add explanations, calculations, and decision support — never a bare reproduction of official text.
+
+---
+
+## 8. ADDITIONAL TOOLS TO INVESTIGATE
+
+**D — Vehicle-specific:** 11. fuel cost by vehicle consumption · 12. cost per kilometre/mile · 13. commute fuel cost · 14. road-trip fuel budget · 15. vehicle consumption comparison · 16. fuel price break-even · 17. diesel vs petrol running cost.
+
+**E — EV tools:** 18. EV charging time · 19. EV home charging cost · 20. EV range and energy budget (configurable reserve) · 21. EV vs petrol/gas break-even · 22. EV charging loss · 23. electricity tariff comparison.
+
+**F — Cross-border and travel:** 24. trip cost per person · 25. cross-border vignette checklist · 26. vignette validity date checker · 27. toll vs vignette cost planner · 28. ferry, toll and fuel trip budget.
+
+**G — Ownership economics:** 29. annual running cost · 30. depreciation · 31. car financing cost · 32. cost of owning two cars · 33. company car vs private car (verify country tax rules first).
+
+**H — Additional niche:** 34. vehicle tax and registration cost · 35. winter tyre and seasonal driving finder · 36. trailer and towing rule finder · 37. motorway speed and journey time · 38. vehicle load and trip energy estimator · 39. used car running-cost comparison · 40. fuel price difference savings.
+
+**Find even better opportunities.** Do not assume adding a country or state name creates an SEO opportunity. Reject pages that only change a place name. If a tool's opportunity is weak, keep it as a feature on a broader page.
+
+---
+
+## 9. UNITED STATES AND UNITED KINGDOM — MARKET-SPECIFIC TOOLS AND RULES
+
+These are **new, market-specific** candidates. Verify every rule and figure against official sources before publishing.
+
+**United Kingdom**
+- **UK fuel cost per mile / per litre calculator** — pump prices are per litre but economy is MPG; bridge the two explicitly.
+- **UK road tax (VED) estimator** — first-year vs standard rates, CO2 bands, list-price surcharge; verify against GOV.UK only.
+- **UK mileage / business mileage cost calculator** — HMRC approved mileage rates where verified.
+- **ULEZ / LEZ / Congestion Charge / Dartford / M6 Toll** — charging-zone information and cost estimates, clearly dated.
+- **UK EV charging cost at home** — domestic tariff based, p/kWh, plus the home-charging-vs-public-cost comparison.
+- **UK petrol vs diesel vs EV running cost.**
+- **UK seasonal/winter driving requirements** and MOT basics where verifiable.
+
+**United States**
+- **US gas cost calculator** — distance, MPG (US), $/gallon; cost per mile and total trip cost.
+- **US road-trip gas budget calculator** — multi-leg, round trip, split cost.
+- **US cost per mile to drive** — fuel plus optional insurance/maintenance placeholders (clearly separated).
+- **MPGe ↔ kWh/100 mi ↔ MPG converter** — the single biggest US unit gap; EPA-based.
+- **US EV home charging cost** — cents/kWh, Level 1 vs Level 2, time-of-use tariffs.
+- **US public DC fast charging cost** — per-kWh and per-minute billing models, session fees.
+- **US toll calculator information** — turnpike/bridge/tunnel, transponder vs plate billing; manual entry where live data is unavailable.
+- **US EV vs gas break-even.**
+- **US mileage deduction / cost-per-mile** — IRS standard mileage rate, clearly dated.
+- **US state EV registration fees** — only where officially verifiable.
+
+**Shared**
+- **UK ↔ US ↔ EU unit bridge page/tool** (MPG UK ↔ MPG US ↔ L/100 km ↔ km/L) — one page, three markets, explicit systems.
+- **US ↔ UK fuel economy sanity checker** ("is my MPG figure US or UK?") — a genuinely underserved query.
+
+---
+
+## 10. PROGRAMMATIC VALUE KEYWORDS
+
+**MPG → L/100 km:** 35 · 36 · 37 · 40 · 45 · 50 · 55 · 60 mpg to l/100km
+**L/100 km → MPG:** 4 · 4.5 · 5 · 5.5 · 6 · 6.5 · 7 · 8 · 10 · 12 · 15 · 20 · 25 · 30 l/100km to mpg
+**kW → hp/PS:** 100 · 110 · 120 · 130 · 150 · 200 kw to hp · 75 · 85 · 90 · 100 · 110 · 150 · 190 kw to ps
+
+**Add for UK/US:** 20 mpg to l/100km · 25 mpg to l/100km · 30 mpg to l/100km · 32 mpg to l/100km · 35 mpg to l/100km us · 40 mpg to l/100km us · 45 mpg to l/100km us · 50 mpg to l/100km us · 35 mpg to l/100km uk · 50 mpg to l/100km uk · 100 hp to kw · 200 hp to kw · 300 hp to kw · 250 hp to kw · 400 hp to kw · 500 hp to kw · 150 bhp to kw · 200 bhp to kw · 300 bhp to kw
+
+**Rules:** implement numeric examples inside the calculator; compute dynamically; curated set, not hundreds of pages; HTML table only where it genuinely helps; logic in a tested reusable function; never hardcode answers; always state which MPG system applies; no separate URL per number without demonstrated intent; no thin-page justification from programmatic SEO; examples must work without JavaScript where practical.
+
+**Preferred implementation:** one comprehensive converter with calculator, table, formulas, worked examples, and related explanations.
+
+---
+
+## 11. YEAR-STAMPED AND FRESHNESS-DEPENDENT KEYWORDS
+
+Research: vignette austria 2026 · vignette austria 2027 · vignette austria 2028 · autobahnvignette 2027 preis · swiss vignette 2027 · vignette schweiz 2027 · slovenia vignette 2027 · vinjeta 2027 · vignette prices 2027 · austria vignette digital only 2027 · eu fuel prices 2026 · fuel prices 2027 · **uk fuel prices 2026 · uk fuel prices 2027 · uk petrol price per litre · us gas prices 2026 · us gas prices 2027 · irs mileage rate 2026 · irs mileage rate 2027 · hmrc mileage rate 2026 · hmrc mileage rate 2027 · uk road tax 2026 · uk road tax 2027 · ulez charge 2026 · congestion charge 2026**
+
+**Requirements:** verify current and future prices against authoritative sources; distinguish confirmed from proposed/rumored/unverified; never assume a policy change is true because a keyword contains it; identify country, region/state, vehicle category, validity, currency; show a visible last-verified date; update on official change; do not change a year to look new; preserve evergreen URLs; year-specific pages only for genuinely distinct historical/future information; do not publish unverified future prices or rates.
+
+For fuel prices, state source, coverage, date, and limitations. Do not advertise live/real-time prices without a genuine mechanism.
+
+---
+
+## 12. EXACT-MATCH AND DOMAIN-STYLE KEYWORDS
+
+Research: vignetteaustria · vignetteaustria2026 · mpg to l100km · l100km to mpg · kw to ps converter · ev charging cost calculator · petrol vs electric calculator · fuel cost calculator uk · **gas cost calculator us · mpg calculator uk · mpge calculator · cost per mile calculator uk · cost per mile calculator us · uk fuel cost calculator · us gas calculator**
+
+Treat these as keyword variants, not URL instructions. Use readable descriptive URLs; match titles to real intent; identify navigational vs informational vs transactional intent; one canonical URL for equivalent content; no duplicates for spacing differences; research brand-like terms to avoid trademark confusion.
+
+---
+
+## 13. "BEST", "FREE" AND "ONLINE" MODIFIERS
+
+Research: best mpg to l/100km converter · best fuel cost calculator · free fuel cost calculator · free ev charging cost calculator · online mpg converter · free vignette price checker · best europe toll calculator · accurate fuel consumption converter · **best gas cost calculator · free gas mileage calculator · free mpg calculator uk · best cost per mile calculator · free ev charging cost calculator us**
+
+Demonstrate the implied quality: free means no surprise payment; accurate means tested formulas and explicit units; online means reliable in-browser; a toll calculator states supported countries/roads/categories/fees; a price checker states source and date.
+
+Do not claim "most accurate", "best in Europe/US", or "100% accurate". Comparison pages only with real comparative information. No manufactured reviews.
+
+---
+
+## 14. QUESTION KEYWORDS AND DIRECT ANSWERS
+
+Research (EU): how many mpg is 7 l/100km · how do you convert l/100km to mpg · how much is a vignette in austria · how much is the swiss vignette · how long is a swiss vignette valid · do you need a vignette in slovenia · how much does it cost to charge an ev at home · how long does it take to charge an ev · is it worth driving further for cheaper fuel · does belgium have a vignette · which european countries need a vignette · can you buy an austria vignette at the border
+
+Research (UK/US): **how much does it cost to charge a tesla at home · how much is gas per gallon · how much is petrol per litre uk · is 40 mpg good · is 50 mpg good uk · what is good mpg · what is good mpg for a car uk · how much does it cost to fill a car · how much is road tax uk · how much is ulez charge · how much does it cost to charge an ev at home us · how much does a level 2 charger cost to install · what is mpge · how do you convert mpg to kwh/100 miles · is it cheaper to charge at home or public · how much is a toll**
+
+Answer each validated question directly near the start of the relevant page. Then add formula/method, calculator, assumptions, examples, exceptions, official sources, last-verified dates.
+
+Use concise question-shaped headings. Do not create a page per question when one comprehensive page answers them. Do not claim a featured snippet. For legal/toll/tax questions, separate the general answer from conditions and exceptions, and note UK vs US divergence where it exists.
+
+---
+
+## 15. COMPETITOR AND BRAND-RELATED KEYWORDS
+
+Research (EU): autovig alternative · vintrica alternative · europamaut alternative · tollguru alternative · fuel-prices.eu alternative · evratio alternative · chargemath alternative · mpgtolitres alternative · calculator-converter alternative · vignette austria official site · asfinag vignette shop · dars e-vignette official · baza admin swiss vignette
+
+Research (UK/US): **fueleconomy.gov alternative · fueleconomy.gov mpg lookup · epa mpg lookup alternative · eia electricity price alternative · aa fuel prices alternative · rac fuel prices alternative · gov.uk fuel prices · petrolprices.com alternative · mpg calculator app alternative · cost per mile calculator alternative · irs mileage rate page · hmrc mileage rates page · dvla road tax checker · ulez checker official · tfl congestion charge official**
+
+First verify which terms are actual organizations/products/domains. For comparisons: verifiable features only; date the comparison; explain meaningful differences; disclose uncertainty; do not fabricate weaknesses, reviews, or pricing; do not impersonate authorities; do not imply government affiliation.
+
+For official-purchase searches, link the official provider. Clearly distinguish the informational site from official sellers/collectors. Do not target competitor names without a real comparison.
+
+---
+
+## 16. COUNTRY/REGION-SPECIFIC FUEL-COST KEYWORDS
+
+Research (EU): fuel cost calculator uk · fuel cost calculator germany · fuel cost calculator france · fuel cost calculator netherlands · spritkosten rechner österreich · brandstofkosten berekenen nederland · calcul frais carburant france · costo carburante italia · calculadora gasto gasolina españa
+
+Research (US/UK): **gas cost calculator · gas cost calculator for trip · gas cost per mile · gas cost calculator us · us gas cost calculator · road trip gas calculator · gas budget calculator · fuel cost calculator uk · uk fuel cost per mile · petrol cost calculator uk · uk journey cost calculator · diesel cost calculator uk · cost of fuel to drive to work uk**
+
+A localized page must add regional value beyond a translated title: language, terminology, currency, units and conventions, fuel types and grades, locally relevant examples, official regional data, local toll/tax/charge considerations, local spelling.
+
+Do not auto-create a page per country or state. Build when validated intent, meaningful localization, and sustainable maintenance justify it. Avoid identical pages differing only by place name and currency.
+
+---
+
+## 17. FORMATS, TABLES AND DOWNLOADABLE RESOURCES
+
+Research: mpg to l/100km chart · l/100km to mpg table · fuel consumption conversion table · kw to hp chart · vignette prices table · mpg to l/100km pdf · fuel conversion formula · **mpg to l/100km chart uk · mpg to l/100km chart us · kw to hp conversion chart · mpge conversion chart · cost per mile chart**
+
+Choose the format that genuinely helps. HTML page remains the primary accessible experience. Do not create a PDF just to target a keyword.
+
+Any chart/PDF must use the same tested formulas, state units and assumptions (including which MPG system), carry a verification date, be readable on common devices, and not conflict with the HTML version. No duplication across near-identical format URLs.
+
+---
+
+## 18. DOORWAY-PAGE AND KEYWORD-PERMUTATION PREVENTION
+
+Treat these as one core intent: l/100km to mpg · …calculator · …converter · convert l/100km to mpg · …conversion · …online · …free · (page 1) · (page 2)
+
+Do not create separate pages merely because a keyword includes: calculator, converter, convert, online, free, a page number, different spacing, punctuation, or capitalization.
+
+Research variants: mpg2l100km · mpgtoL100km · l100km2mpg · kw2hp · kw2ps · l/100km→mpg · mpg→l/100km · 100km/l to mpg · l per 100km to mpg · litres per hundred km to mpg · liters/100km to mpg · **mpg to kwh/100 miles · kwh/100 miles to mpg · mpge to mpg · mpg to mpge**
+
+Verify ambiguous variants before mapping. Do not assume every shorthand means the same conversion.
+
+**Canonicalization rules:** one primary page per distinct intent; one canonical URL for equivalent content; redirect obsolete duplicates; do not use canonical tags as a substitute for useful content; do not reinforce duplicates with internal links; no mass pages differing only by permutation or arbitrary page number; no doorway chains; all primary tools reachable via normal navigation.
+
+---
+
+## 19. TYPO, MISSPELLING AND ALTERNATE-SPELLING KEYWORDS
+
+Research: milage calculator · milage to l/100km · milege · fuel millage · vignette austria · vignett austria · autobahn vignette · slovenia vinjeta · e vinjete · kw to horse power · horsepower converter · litres to gallons mpg · consuption · **liters to gallons · mileage calculator · gas milage calculator · how many litres in a gallon · how many miles in a km · convert km to miles · convert miles to km · mpg to km/l**
+
+Include **UK vs US spelling pairs** and handle them correctly in content: litre/liter · metre/meter · kilometre/kilometer · tyre/tire · petrol/gas · aluminium/aluminum. Use the spelling appropriate to the target market on market-specific pages; do not mix within a page.
+
+Check meaningful intent; understand the correct intended meaning; use correct spelling in content; support common input variations; do not stuff misspellings into headings; no page per typo; redirect legacy misspelled URLs only when technically justified.
+
+---
+
+## 20. BOT-FACING KEYWORDS VERSUS USER-FACING LANGUAGE
+
+| Raw keyword candidate | Preferred user-facing wording |
+|---|---|
+| l/100km to mpg converter free | Fuel Efficiency Calculator |
+| vignette austria 2026 price | Austria Motorway Toll and Vignette Guide |
+| ev charging cost calculator uk | Cost to Charge an Electric Car |
+| gas cost calculator us | Trip Fuel Cost Calculator (US) |
+| uk fuel cost per mile | Cost per Mile to Drive (UK) |
+
+Use natural descriptive language. No content written for bots that deceptively differs from what visitors see. Title, H1, metadata, labels, and content must accurately describe the page. Keywords guide planning; they do not override clarity, accuracy, or accessibility.
+
+---
+
+## 21. UNIT TERMINOLOGY AND MULTILINGUAL SYNONYMS
+
+Investigate: L/100km · l/100 km · litre/100km · litre per 100 kilometre · litres/100 kilometres · MPG UK · MPG US · imperial gallon · US gallon · mpg imperial · mpg us · kilometres per litre · miles per gallon · kilowatt · horsepower · metric horsepower · PS · Pferdestärke · bhp · cv · ch · pk · cavalli · maut · vignette · toll · road tax · pickerl · vinjeta · péage · peaje
+
+**Add US/UK terms:** gas · gasoline · petrol · diesel · regular · premium · octane 87/91/93 · MPGe · mi/kWh · kWh/100 mi · cents per kWh · cents per mile · pence per litre (p/l) · £/l · $/gal · gallon (US) · gallon (imperial) · road tax · VED · MOT · ULEZ · LEZ · congestion charge · toll road · turnpike · transponder · E-ZPass · SunPass · mileage rate · standard mileage rate · AER · EPA rating · WLTP · NEDC
+
+Map equivalents to the correct calculator or localized page; verify meanings in the original language and regional context; do not assume abbreviations are interchangeable; distinguish horsepower systems correctly; distinguish vignette from distance-based tolls, road tax, and inspection terminology; avoid mixing unrelated concepts on superficial word similarity.
+
+**Critical traps to handle explicitly:** `gas` ≠ `petrol` in all contexts; `gallon` ≠ `gallon` across the Atlantic; `bhp` ≠ `hp` ≠ `PS`; `MPG` ≠ `MPG`; `ton` ≠ `tonne`; `mpge` is an EPA construct, not a real-world conversion.
+
+---
+
+## 22. ANCHOR-TEXT OPTIMIZATION
+
+Descriptive anchors: l/100km to mpg converter · best fuel cost calculator · accurate ev charging cost · official vignette prices · austria vignette 2026 price · swiss vignette chf 40 · slovenia e-vignette price · fuel cost per mile calculator · **us gas cost calculator · uk cost per mile · mpg uk vs mpg us · mpge converter**
+
+General anchors: fuel consumption converter · mpg calculator · car running cost calculator · fuel cost calculator · europe toll calculator · vignette europe · motorway tolls europe · car cost calculator
+
+Use anchors naturally; link only where the destination satisfies the anchor; prefer descriptive wording over "click here"; vary wording; do not force exact-match on every link; do not call something "official" unless it is; avoid repetitive keyword-rich footers and sitewide link blocks; do not buy links to manipulate rankings.
+
+---
+
+## 23. REDDIT AND COMMUNITY-INTENT KEYWORDS
+
+Research (EU): is driving further for cheaper fuel worth it reddit · cheapest fuel vs extra miles reddit · how much does it cost to charge an ev reddit · ev vs petrol real cost reddit · do i need a vignette for slovenia reddit · austria vignette do i need one reddit · swiss vignette worth it for 1 day reddit
+
+Research (UK/US): **is 40 mpg good reddit · is 50 mpg good reddit · how much does it cost to charge a tesla reddit · is it cheaper to charge at home reddit · ev vs gas real cost reddit · how much is road tax reddit · is ulez worth it reddit · gas cost road trip reddit · cheapest gas vs extra miles reddit · r/electricvehicles charging cost · r/Cars mpg · r/UKPersonalFinance car costs · r/personalfinance cost per mile**
+
+Flag the incomplete phrase **"uk to slove"** and research the intended term before mapping it.
+
+Treat these as signals of practical questions. Review public discussions where appropriate; identify recurring confusions; separate anecdote from verified fact; verify claims independently; write original explanations; cite when relying on community material; respect copyright/privacy. Do not invent Reddit consensus, fabricate quotes, or treat anecdotes as universal.
+
+---
+
+## 24. COUNTRY-BY-COUNTRY / REGION PRICE-LIST KEYWORDS
+
+Research: vignette austria price list · swiss vignette price list · slovenia vignette price list · all european vignette prices · europe vignette prices by country · toll prices by country europe · fuel prices by country europe · **uk fuel prices by region · us gas prices by state · us state ev registration fees · uk ved rates by band**
+
+Build comparative tables only with reliable, maintainable data. For every table: state countries/regions and vehicle categories; state currency and dates; link official sources; explain exclusions and special cases; separate vignettes from distance-based tolls and special-road charges; show the last verification date; avoid claiming full coverage.
+
+---
+
+## 25. LOW-DEMAND AND QUESTIONABLE-DEMAND CANDIDATES
+
+Research: mpg to l/100km uk · mpg to l/100km us · l/100km to mpg formula uk · is 40 mpg good · is 7 l/100km good · what is good fuel consumption · good mpg for a car uk · bad fuel consumption l/100km · vignette austria where to buy near me · vignette austria app · swiss vignette where to buy online · slovenia vignette online buy · **good mpg for a car us · what is a good mpg · is 30 mpg good · is 25 mpg good · average mpg uk · average mpg us · uk average fuel consumption · us average fuel economy**
+
+Also research: **German** verbrauch umrechnen · spritverbrauch umrechner · benzinverbrauch berechnen · kraftstoffkosten rechner · maut österreich 2026 · vignette österreich preis · **Dutch** brandstofverbruik omrekenen · brandstofkosten berekenen · **French** consommation carburant convertisseur · calcul coût trajet voiture · **Italian** calcolo consumo carburante · costo pedaggio europa · **Spanish** calculadora consumo combustible · coste peaje europa · **Slovenian** poraba goriva · cena vinjete
+
+Do not classify a keyword as zero-volume just because a free tool returns no estimate. Separate confirmed demand, below-threshold demand, no available data, and qualitative intent observations. Prioritize by usefulness, evidence, implementation cost, and realistic ranking opportunity.
+
+---
+
+## 26. NEAR-ME AND TRANSACTIONAL SEARCH INTENT
+
+Research: vignette austria near me · buy vignette austria online · swiss vignette buy online · slovenia vignette buy online · petrol station cheap fuel near me · cheapest fuel near me calculator · **cheapest gas near me · cheap petrol near me · gas station near me prices · petrol prices near me · cheapest petrol station near me uk · ev charging station near me cost**
+
+Distinguish users wanting: an explanation, a calculator, an official purchase page, a nearby seller, or current local prices. Do not claim nearby results without a working location-aware source. For purchase intent, link the official provider. Do not fake a checkout, claim to sell an official product, or imitate a government service. If accurate local prices cannot be retrieved, say so and provide a user-input calculator.
+
+---
+
+## 27. IMAGE-SEARCH AND VISUAL CONTENT KEYWORDS
+
+Research: mpg to l/100km conversion chart image · fuel consumption comparison chart · austria vignette sticker 2026 photo · swiss vignette sticker image · slovenia e-vignette screenshot · kw to hp conversion chart table · **mpg to l/100km chart printable · us mpg vs uk mpg chart · mpge chart · cost per mile chart · fuel cost comparison chart**
+
+Use original diagrams, accessible charts, or clearly licensed images where they help. Label units clearly (including MPG system); keep charts consistent with tested calculations; provide meaningful alt text; identify source and rights for third-party imagery; do not copy competitor images or official branding without permission; do not use a screenshot instead of an accessible calculator; avoid image-only pages.
+
+---
+
+## 28. FORMULA AND ELIGIBLE RICH-RESULT CONTENT
+
+Research: l/100km to mpg formula · mpg to l/100km equation · ev charging cost formula · fuel cost formula · how to calculate fuel cost per mile · how to convert kw to hp formula · austria vignette validity dates · swiss vignette validity period · slovenia vignette validity period · **how to convert mpg to l/100km · how to convert kw to hp · how to calculate cost per mile · how to calculate gas cost for a trip · how to convert mpge · ev charging cost formula uk · gas cost formula**
+
+Include the formula, variable definitions, units, a worked example, assumptions and limitations, and references. Ensure the formula matches the implementation. Use structured data only when supported by visible content and current guidelines. Do not promise featured snippets or rich results.
+
+---
+
+## 29. COMPETITIVE ADVANTAGE
+
+Where appropriate, every calculator should include: immediate results; explanation of the result; transparent formula; worked example; unit selection (including UK/US system); input validation; labelled default examples; optional comparison scenario; clear limitations; relevant official sources; last-verified dates; related tools; FAQs from real intent; print-friendly results; mobile-friendly controls.
+
+**Differentiators to hold across all three markets:** explicit UK/US/EU unit disambiguation; visible "last verified" dates on every changing figure; a published corrections log; and no-signup, ad-light calculation pages — all three are weak or absent in the UK, US, and EU competitor sets.
+
+---
+
+## 30. CALCULATION ACCURACY
+
+Write and test the formula before building the UI. Use a central formula library and independent unit tests. At minimum verify:
+
+- **L/100 km → MPG:** MPG(UK) = 282.480936 ÷ (L/100 km); MPG(US) = 235.214583 ÷ (L/100 km). Valid for positive values; handle 0 explicitly (infinite MPG, not an error).
+- **kW → horsepower:** PS = kW × 1.359621617; hp = kW × 1.34102209. Document unit definitions and verify constants.
+- **Fuel cost:** Litres = Distance(km) × Consumption(L/100 km) ÷ 100; Cost = Litres × price per litre. US path: Gallons = Distance(mi) ÷ MPG(US); Cost = Gallons × price per gallon.
+- **EV charging cost:** Cost = Energy purchased(kWh) × price per kWh; when deriving energy from a desired battery-energy increase, account explicitly for charging-efficiency.
+- **Petrol/gas vs EV:** both sides computed on the same distance basis; petrol cost per 100 km = consumption × fuel price; EV cost per 100 km = EV consumption × electricity price.
+- **Supporting constants to verify and document:** 1 US gallon = 3.785411784 L; 1 imperial gallon = 4.54609 L; 1 mile = 1.609344 km; UK/US MPG ratio ≈ 1.20095; EPA MPGe basis (33.7 kWh per gallon of gasoline equivalent — verify against the current EPA source); pence per litre ↔ £ per litre; cents per kWh ↔ $ per kWh.
+
+Also: verify each formula independently; test zero, negative, missing, very large, and decimal inputs; test boundaries; avoid division-by-zero; use appropriate precision and sensible rounding; distinguish rounding from the underlying calculation; document assumptions; do not confuse estimates with guaranteed costs; do not invent formulas for road, tax, or toll regulations.
+
+For changing tolls, vignettes, taxes, and regulations, use the official authority's documented rules and prices. Mark unverifiable formulas as unverified. Maintain a verification log: formula, source, test inputs, expected output, actual output, verification date.
+
+**Additional accuracy rule for this version:** every conversion output must be labelled with the unit system used, and every page must state which country's convention its defaults follow.
+
+---
+
+## 31. OFFICIAL DATA SOURCES
+
+**Europe:** Austria — ASFINAG · Switzerland — Federal Office for Customs and Border Security and relevant federal authorities · Slovenia — DARS and official transport authorities · Germany, France, Italy, Netherlands — relevant official road/transport authorities · EU — official EU sources for cross-border rules.
+
+**United Kingdom:** GOV.UK and DVLA (road tax/VED, registration) · DVSA (MOT) · HMRC (mileage rates) · Department for Transport · National Highways · Ofgem (electricity) · DESNZ · Transport for London (ULEZ, LEZ, Congestion Charge) · official fuel-price reporting where available.
+
+**United States:** fueleconomy.gov / EPA (fuel economy, MPGe) · EIA (electricity and gasoline prices) · FHWA · IRS (standard mileage rate) · state DOTs and turnpike authorities (tolls) · state DMVs (registration, EV fees) · Federal Register where relevant.
+
+Use official energy regulators or official statistical publications for country-level energy-price data.
+
+For every changing figure record: figure/rule, country/region/state, vehicle category where relevant, effective date, source URL, date checked, caveats. Do not hardcode changing prices throughout the codebase. Separate verified data from user assumptions and estimates. When sources conflict or are unclear, explain the issue and do not guess.
+
+---
+
+## 32. TECHNICAL STACK
+
+Prefer a lightweight static site: Next.js App Router; TypeScript strict; static export where supported; Tailwind CSS; accessible reusable components; Vitest; Zod or equivalent for complex inputs; centralized calculation library; centralized country/region and source data; static guides and informational pages.
+
+Avoid: unnecessary databases; mandatory accounts; expensive external APIs; unneeded server-side features; unnecessary animation libraries; sending calculator inputs to analytics; paid services when a reliable free alternative suffices.
+
+If a feature needs dynamic data, explain options, costs, maintenance, and limitations before implementing. Do not claim a static page provides live prices or real-time routing unless it genuinely does.
+
+---
+
+## 33. SEO ARCHITECTURE
+
+Suggested structure (finalize after research; not every URL is required):
+
+`/` · `/tools` · `/tools/l100km-to-mpg` · `/tools/mpg-to-l100km` · `/tools/kw-to-ps-hp` · `/tools/ev-charging-cost` · `/tools/ev-vs-petrol-cost` · `/tools/fuel-cost` · `/tools/ev-charging-time` · `/tools/vehicle-running-cost` · `/tools/road-trip-cost` · `/tools/fuel-price-savings` · `/tools/mpge-converter` · `/travel` · `/travel/austria-vignette` · `/travel/switzerland-vignette` · `/travel/slovenia-vignette` · `/uk` · `/uk/fuel-cost-per-mile` · `/uk/road-tax` · `/uk/ev-charging-cost` · `/us` · `/us/gas-cost` · `/us/cost-per-mile` · `/us/ev-charging-cost` · `/guides` · `/about` · `/contact` · `/privacy-policy` · `/terms` · `/disclaimer` · `/editorial-policy` · `/methodology` · `/corrections`
+
+**Decide deliberately** between `/uk/` `/us/` subfolders versus a single unified page with a country toggle — justify the choice per tool using SERP evidence. Do not create both.
+
+SEO rules: one clear primary intent per page; unique titles and meta descriptions; descriptive headings; helpful internal linking; canonical URLs; XML sitemap; robots.txt; breadcrumbs where appropriate; structured data matching visible content; fast mobile rendering; no duplicate or auto-generated doorway pages; no keyword stuffing; no fake reviews or invented statistics; no ranking promises; no fabricated search volumes. Every indexed page must provide meaningful original value.
+
+For UK/US/EU overlapping content, use `hreflang` correctly where language variants genuinely differ (e.g. en-GB vs en-US) and avoid duplicating identical content across them.
+
+---
+
+## 34. ORIGINAL CONTENT
+
+For each calculator explain: what it calculates; who uses it; how the formula works; the units involved; a worked example; important assumptions; common mistakes; when the result is only an estimate; links to authoritative sources.
+
+For travel/regulatory/tax pages, clearly distinguish official requirements, calculated estimates, general explanations, and user-provided assumptions. Use plain English and appropriate local-language wording and spelling. Do not copy competitors' text. Do not claim expertise, qualifications, reviews, or endorsements not established.
+
+**Market-accuracy rule:** never publish a UK figure with a US unit, or a US rate with a UK name. Where a rule differs by nation within the UK (e.g. MOT/ULEZ coverage) or by state within the US (e.g. registration fees, tolls), say so.
+
+---
+
+## 35. GOOGLE ADSENSE REQUIREMENTS
+
+Create substantive versions of: About, Contact, Privacy policy, Terms of service, Disclaimer, Editorial policy, Methodology, Corrections policy — describing the actual site and real operations.
+
+Implement a clear ad layout with reserved space to avoid layout shift. Ads must never be disguised as calculator controls, obscure results, cause accidental clicks, mislead, interfere with navigation, be clicked by scripts, or be tested via artificial clicks. Keep slots disabled until ready.
+
+For EEA/UK (and US state privacy laws where applicable), implement consent and privacy controls matching the actual setup and current Google requirements. Never promise AdSense approval or a specific revenue amount. No artificial traffic or automated ad clicks.
+
+---
+
+## 36. ANALYTICS AND PRIVACY
+
+Collect only useful, privacy-conscious aggregate metrics. Potential events: calculator used; calculation completed; related tool opened; official source opened. Do not transmit detailed inputs unless there is a clear, disclosed, lawful reason and an appropriate design. Do not send unnecessary personal travel details. No accounts for ordinary calculations. Provide clear privacy information describing actual tools and services, and state the jurisdiction(s) in which data is processed.
+
+---
+
+## 37. DESIGN DIRECTION
+
+Clean, technical, professional. Excellent readability; clear unit labels (including UK vs US system); large accessible inputs; restrained colors; strong contrast; useful tables and concise explanations; responsive layout; minimal decoration; clear separation between inputs, results, formulas, and sources. Avoid generic AI-site aesthetics, excessive rounded cards, unnecessary gradients, fake testimonials. It should feel like a dependable practical tool, not a thin ad landing page.
+
+---
+
+## 38. PERFORMANCE AND ACCESSIBILITY
+
+Responsive on small screens; keyboard-accessible; visible focus states; correct labels and accessible result announcements; reduced-motion support; lightweight JS; optimized fonts/assets; no unnecessary blocking third-party scripts; no ad layout shift; clear errors and empty states. Use automated tests and Lighthouse audits; report actual results rather than claiming scores without testing.
+
+---
+
+## 39. DEVELOPMENT PHASES
+
+- **Phase 0:** research, competitor analysis, market prioritization (UK/US/EU), tool scoring, proposed architecture. Present findings; request approval.
+- **Phase 1:** project setup, design system, routing, central data, formula library, source records, test infrastructure.
+- **Phase 2:** the five tools selected from validated opportunities.
+- **Phase 3:** country/region-specific vignette, UK tax/charge, and US toll/gas tools that pass research and verification.
+- **Phase 4:** validated landing pages, useful guides, internal links, metadata, structured data, hreflang, trust pages.
+- **Phase 5:** type checking, linting, unit tests, formula verification, link checks, metadata checks, accessibility checks, production build, mobile testing, performance audits.
+- **Phase 6:** sitemap, robots.txt, Search Console checklist, analytics, privacy/consent checks, AdSense readiness, source-verification checklist, data-maintenance schedule.
+
+After each phase report: what was completed; files changed; tests performed; actual test results; unverified assumptions; remaining risks; decisions requiring approval. Stop at each defined approval gate.
+
+---
+
+## 40. CONSOLIDATED KEYWORD AND PAGE-MAPPING DELIVERABLE (MANDATORY BEFORE IMPLEMENTATION)
+
+Produce one consolidated keyword map covering the earlier and newly added lists, **split by market (UK / US / EU / local-language)**. Deduplicate equivalent queries, retain useful original-language and regional variations, and flag incomplete or ambiguous phrases (e.g. "uk to slove").
+
+For each keyword or cluster record: **1.** exact keyword · **2.** country/region and language · **3.** search intent · **4.** evidence of search demand · **5.** SERP observations · **6.** existing or proposed parent page · **7.** canonical URL · **8.** proposed tool or content format · **9.** official or technical source requirements · **10.** update frequency · **11.** implementation effort · **12.** ranking-opportunity assessment · **13.** decision: build, merge, defer, or reject · **14.** reason for that decision.
+
+Use one page for one distinct user need — not one page per spelling, number, year, modifier, or word order. If a cluster lacks evidence, mark it **unvalidated** rather than inventing data.
+
+---
+
+## 41. FINAL ANTI-SPAM QUALITY GATE
+
+Before publishing, verify: meaningful standalone value; distinct user need; correct and tested calculation; correct unit system for the target market; original useful content; sourced country/region-specific claims; maintained time-sensitive data; natural descriptive titles and headings; relevant non-over-optimized internal links; consolidated equivalent pages; correct canonical URLs and hreflang; no mass-generated doorway pages; no keyword-stuffed paragraphs or misleading claims; no fabricated competitor reviews or ranking promises; ads not disguised as functionality; good mobile and desktop UX; privacy and advertising requirements addressed; compliance with applicable Google Search and AdSense policies.
+
+---
+
+## 42. DEFINITION OF DONE
+
+Ready for launch preparation only when: selected tools address validated needs; keyword claims have documented evidence or are marked unverified; calculations have passing tests; formulas have documented verification; changing information is supported by official sources; no invented prices or regulations; every page states its unit system and market; works on desktop and mobile; navigation and internal links work; every indexed page has a clear purpose; content is original and useful; technical SEO implemented; hreflang correct; trust and privacy pages reflect actual operations; advertising does not interfere with tools; no artificial traffic or ad-click mechanisms; production build succeeds; remaining limitations documented honestly.
+
+---
+
+## 43. FINAL INSTRUCTION
+
+Start with Phase 0. First research the 40 proposed tools plus the UK/US market-specific candidates, classify every keyword using the §6 taxonomy, and discover additional opportunities.
+
+Rank the strongest candidates using country-specific keyword evidence and realistic organic competition analysis across the UK, US, and European markets — researching each in its own search index.
+
+Do not automatically recommend the most popular category. Find the best combination of measurable search demand, achievable ranking opportunity, usefulness, commercial potential, and manageable maintenance.
+
+Clearly distinguish verified facts from estimates and hypotheses. Return the Phase Zero report — including the §40 consolidated keyword map — and wait for approval before implementation.

@@ -1,0 +1,73 @@
+# RoadCost
+
+> Free, static fuel, EV and efficiency calculators with explicit units and worked formulas. No live fuel prices, no signup, and no invented regulations.
+
+RoadCost helps drivers compare MPG UK, MPG US, L/100 km and km/L; estimate trip fuel cost; calculate EV charging cost; compare EV and petrol running costs; and convert kW, PS and hp. Every calculator states its units and shows the formula.
+
+## Calculators
+
+- [Fuel cost calculator](/tools/fuel-cost): trip fuel use, total cost, cost per mile and cost per 100 km for eight market presets.
+- [EV charging cost calculator](/tools/ev-charging-cost): energy added, charging losses, session fees and cost per distance.
+- [EV vs petrol cost calculator](/tools/ev-vs-petrol-cost): annual running costs and simple purchase-price break-even.
+- [Fuel efficiency converter](/tools/fuel-efficiency-converter): MPG UK, MPG US, L/100 km, km/L, MPGe, mi/kWh and kWh/100 km.
+- [kW to PS to hp converter](/tools/kw-to-ps-hp): power unit conversions.
+
+## Guides
+
+- [All guides](/guides): 29 plain-English guides, grouped by topic.
+
+### Foundations
+
+- [Why UK and US MPG are different](/guides/uk-vs-us-mpg)
+- [How trip fuel cost is calculated](/guides/how-fuel-cost-is-calculated)
+- [MPGe explained](/guides/mpge-explained)
+
+### Fuel and units
+
+- [MPG to L/100 km](/guides/mpg-to-l100km)
+- [L/100 km to MPG](/guides/l100km-to-mpg)
+- [km/L to MPG](/guides/km-per-litre-to-mpg)
+- [US gallon vs imperial gallon](/guides/us-vs-imperial-gallon)
+- [Fuel economy vs fuel consumption](/guides/fuel-economy-vs-consumption)
+- [Cost per mile formula](/guides/cost-per-mile-formula)
+- [Round-trip fuel cost](/guides/round-trip-fuel-cost)
+
+### Trip and budget
+
+- [Fuel cost for 100 miles](/guides/fuel-cost-100-miles)
+- [Fuel cost for 100 km](/guides/fuel-cost-100-km)
+- [Commute fuel cost](/guides/commute-fuel-cost)
+- [How to budget fuel for a road trip](/guides/road-trip-fuel-budget)
+- [Track real fuel economy](/guides/track-real-fuel-economy)
+
+### Driving
+
+- [Air conditioning and fuel economy](/guides/ac-fuel-economy)
+- [Roof boxes and fuel economy](/guides/roof-box-fuel-economy)
+- [Tyre pressure and fuel economy](/guides/tyre-pressure-fuel-economy)
+- [Does idling waste fuel?](/guides/idling-fuel-use)
+- [Most fuel-efficient speed](/guides/best-speed-fuel-economy)
+- [Towing and fuel economy](/guides/towing-fuel-economy)
+- [City vs highway MPG](/guides/city-vs-highway-mpg)
+
+### EV and charging
+
+- [kWh/100 km explained](/guides/kwh-per-100km)
+- [mi/kWh vs km/kWh](/guides/mi-per-kwh-vs-km-per-kwh)
+- [EV charging losses](/guides/ev-charging-losses)
+- [Home vs public charging](/guides/home-vs-public-charging)
+- [EV vs petrol break-even](/guides/ev-vs-petrol-break-even)
+- [EV range in cold weather](/guides/ev-range-cold-weather)
+- [Hybrid vs petrol running cost](/guides/hybrid-vs-petrol-cost)
+
+## Editorial
+
+- [RoadCost Editorial](/authors/roadcost-editorial): who writes and reviews the guides.
+- [Editorial policy](/editorial-policy): sourcing, testing and correction standards.
+- [Methodology](/methodology): formulas, unit constants and verification status.
+
+## Notes
+
+- Prices and regulations change. Use the price you actually pay and verify official rules at the source.
+- Calculations are estimates, not quotes. Fuel-only results exclude insurance, maintenance, depreciation and tolls.
+- Content is reviewed on 27 October 2026. Feed the site's sitemap and canonical URLs to search and answer engines.
